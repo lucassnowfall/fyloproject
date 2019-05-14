@@ -1,5 +1,8 @@
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Open Sans', sans-serif; */
+body{
+  margin: 0;
+}
 
 a,h1,h2,h3,h4,button,ul{
   font-family: 'Raleway', sans-serif;
@@ -8,4 +11,23 @@ a,h1,h2,h3,h4,button,ul{
 p{
   font-family: "Open Sans Condensed";
   font-family: 'Open Sans', sans-serif;
+}
+
+.weirdShape{
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 83%);
+clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 83%);
+background-image: linear-gradient(to right, #100A6E , #7B77C4);
+width: 100%;
+height: 500px;
+margin-bottom: 0;
+}
+
+.weirdShapeWhite{
+  -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 83%);
+clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 83%);
+background-color: green;
+margin-top: 0;
+width: 100%;
+height: 500px;
+
 }
